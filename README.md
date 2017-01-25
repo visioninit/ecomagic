@@ -4,7 +4,7 @@ This is an early work in progress (2nd day of effort), please keep that in mind.
 
 The code here is simply a mapping from the CSV to the Drupal content.
 
-Current site: ecomagic.org
+Current site: http://ecomagic.org
 
 Development site: http://dev-ecomagic.pantheonsite.io/about-us
 
