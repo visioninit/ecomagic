@@ -1,6 +1,8 @@
 # ecomagic
 
-This is an early work in progress (2nd day of effort), please keep that in mind.  The goal is to port the current site into Drupal 8 on a 1:1 basis and provide a responsive interface
+This is an early work in progress (2nd day of effort), please keep that in mind.  The goal is to port the current site into Drupal 8 on a 1:1 basis and provide a responsive interface.
+
+The code here is simply a mapping from the CSV to the Drupal content.
 
 Steps so far:
 
