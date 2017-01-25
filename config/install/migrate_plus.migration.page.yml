@@ -1,0 +1,34 @@
+dependencies:
+  module:
+    - migrate_source_csv
+id: page
+migration_tags:
+  - CSV
+migration_group: null
+label: Page
+source:
+  plugin: csv
+  path: modules/migrate_ecomagic/assets/csv/ecomagic-content.csv
+  header_row_count: 1
+  keys:
+    - id
+  column_names:
+    0:
+      id: ID
+    1:
+      title: 'Title'
+    2:
+      path: 'Path filename'
+    3:
+      body: Body
+process:
+  type:
+    plugin: default_value
+    default_value: page
+  id: id
+  title: path
+  body: body
+
+destination:
+  plugin: 'entity:node'
+migration_dependencies: {}
